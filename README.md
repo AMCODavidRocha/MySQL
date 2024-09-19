@@ -5,11 +5,9 @@
     * Secure the installation by setting a root password and adjusting security settings (e.g., removing test databases and anonymous users).
     * Task: Verify the installation by logging into MySQL from the command line:
 
-   <table>
-  <tr>
-    <th>Task:</th>
-    <th style="color:black;background: green">DONE</th>
-  </tr>
+![Static Badge](https://img.shields.io/badge/DONE-darkgreen?style=for-the-badge&label=Task%3A%20&labelColor=black)
+
+
 
 </table>
 
