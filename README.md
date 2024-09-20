@@ -82,15 +82,17 @@
 
 ---
 
-      
+5. Additional Practice
+    * Create and modify tables within the Sakila database:
+    * Create a new table for tracking promotions.
+    * Add a column to the actor table for tracking the date of birth of actors.
+    * __Task: Practice ALTER TABLE commands and__ 
+    ![pic](src/img/5-1.png)
+    __CREATE TABLE on the Sakila database.__
+    ![pic](src/img/5-2.png)
+    ![pic](src/img/5-3.png)
+    ![pic](src/img/5-4.png)
 
+![Static Badge](https://img.shields.io/badge/DONE-darkgreen?style=for-the-badge&label=Task%3A%20&labelColor=black) 
 
-
-
-
-
-
-
-
-
-      
+---
