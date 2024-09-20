@@ -61,3 +61,36 @@
 ![Static Badge](https://img.shields.io/badge/DONE-darkgreen?style=for-the-badge&label=Task%3A%20&labelColor=black)
 
 ---
+
+4. Exporting Data from MySQL
+    * __Learn how to export query results to a file using the command line.__
+      + "__SELECT__ "Columnas a elegir o todo" __INTO OUTFILE__ "Ruta/nombre.sql" __FROM__ "tabla"__;__ 
+      
+    * __Task: Export a list of all films, including title and rental duration, to a CSV file:__
+      + __SELECT__ title, rental_duration __INTO OUTFILE__ "/Users/davidrocha/Desktop/VSC/MySQL/src/sakila/films.csv" __FIELDS TERMINATED BY__ ',' __LINES TERMINATED BY__ '\n' __FROM__ film __;__
+        - Al momento de guardar el archivo se encontro con el siguiente error:
+        ![pic](src/img/4-e.png)
+        ![pic](src/img/4-e-2.png)
+        Esto se debe al tipo de seguridad con el que se configuro el cliente de MySQL.
+      - Se modifico el archivo __/usr/local/etc/my.cnf__ agregando una ruta existente, tambien dejandolo libre y sigue marcando el valor NULL en la BD. Cabe mencionar que esto se le pregunto por ultima instancia a ChatGPT y tampoco funciono su recomendacion.
+      ![pic](src/img/4-e-3.png)
+
+  * Para realizar la peticion del Task se realizo la exportacion mediante el Workbench
+  ![pic](src/img/4-1.png)
+
+![Static Badge](https://img.shields.io/badge/DONE-yellow?style=for-the-badge&label=Task%3A%20&labelColor=black)      
+
+---
+
+      
+
+
+
+
+
+
+
+
+
+
+      
